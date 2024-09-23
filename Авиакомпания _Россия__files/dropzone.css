@@ -1,0 +1,214 @@
+/* >>>> dropzone <<<<< */
+/*
+ * The MIT License
+ * Copyright (c) 2012 Matias Meno <m@tias.me>
+ */
+@-webkit-keyframes passing-through {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    30%, 70% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes passing-through {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    30%, 70% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    30% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    30% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    20% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    20% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.dz-message {
+    width: 100%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px dashed #A0A0A0;
+    border-radius: 0px;
+    color: #A0A0A0;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 30px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background-color: #FCFCFC;
+}
+
+.dz-message:hover {
+    color: #006da4;
+    border-color: #006da4;
+    background-color: #FCFDF9;
+}
+
+p.complete {
+    display: none;
+}
+
+.dz-success-mark,
+.dz-error-mark,
+.dz-error-message,
+.dz-image,
+.dz-progress {
+    display: none;
+}
+
+.dz-upload {
+    display: block;
+    background-color: #bd0b0b;
+    height: 1px;
+    width: 0%;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.dz-file-preview {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.dz-preview {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F5F5F5;
+    text-align: center;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.dz-size {
+    color: #f20000;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.dz-filename {
+    color: #000;
+}
+
+.dz-remove {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.dz-remove:before, .dz-remove:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: #E64D05;
+}
+
+.dz-remove:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.dz-remove:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

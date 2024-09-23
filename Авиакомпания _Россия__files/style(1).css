@@ -1,0 +1,7 @@
+.btn.btn-white .icon-toleft-black {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20'%3E%3Cpath fill='%23000' d='M11.242 9.144c-2.48 2.48-3.24 4.47-2.594 6.222 0 0 5.68-5.683 5.683-5.683L8.65 4c-.647 1.75.115 3.74 2.594 6.22V9.144z'/%3E%3C/svg%3E");
+}
+
+.main-page-program.red-program:hover .btn.btn-white .icon-toleft-black {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20'%3E%3Cpath fill='%23fff' d='M11.242 9.144c-2.48 2.48-3.24 4.47-2.594 6.222 0 0 5.68-5.683 5.683-5.683L8.65 4c-.647 1.75.115 3.74 2.594 6.22V9.144z'/%3E%3C/svg%3E");
+}

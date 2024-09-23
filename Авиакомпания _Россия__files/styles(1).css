@@ -1,0 +1,907 @@
+#pop-registration .popup-body, #pop-registration .popup-wrap{
+width: 370px;
+}
+#pop-registration-book .popup-body, #pop-registration-book .popup-wrap{
+    width: 370px;
+}
+.spo-news {
+    border-right: 1px solid #cecece;
+
+}
+
+.spo-news:hover {
+    background: #d0112b;
+}
+
+.spo-line .spo-news:last-child {
+    border-right: 0;
+}
+.spo-news-line .spo-line:first-child {
+    border-top: 1px solid #cecece;
+}
+.spo-news-line .spo-line {
+    border-bottom: 1px solid #cecece;
+}
+
+.spo-news-line .spo-post-back {
+    background: #0B71A1;
+}
+
+.spo-news .spo-title {
+    max-width: 280px;
+    min-height: 72px;
+    max-height: 90px;
+    margin: 0 0 10px;
+    color: #016da4;
+    font: 700 14px/18px 'Helios', sans-serif;
+    overflow: hidden;
+}
+
+.spo-news:hover .spo-title {
+    color: #FFF;
+}
+
+.spo-news .spo-note {
+    max-width: 300px;
+    min-height: 85px;
+    max-height: 136px;
+    margin: 10px 0;
+    font: 400 14px/21px 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.spo-news:hover .spo-note {
+    color: #FFF;
+}
+
+.spo-news .spo-btm {
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.spo-news .spo-date {
+    float: left;
+    color: #006da4;
+    font: 400 14px/21px 'Helios', sans-serif;
+}
+
+.spo-news:hover .spo-date {
+    color: #FFF;
+}
+
+.spo-news .spo-more {
+    display: block;
+    float: right;
+    padding-right: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font: 400 12px/20px 'Helios', sans-serif;
+    background: no-repeat right center url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjOTk5OTk5IiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+
+.spo-news:hover .spo-more {
+    color: #FFF;
+}
+
+.all-pages-loadmore {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    text-align: center;
+}
+
+.popup-wrap {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+
+    bottom: 200px;
+    /*margin: auto;*/
+    width: 320px;
+    max-height: 720px;
+    z-index: 101;
+    display: block;
+    margin-top: -90px;
+    margin-left: -185px;
+}
+
+.popup-close {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: -27px;
+    width: 18px;
+    height: 18px;
+    background: url(/local/img/close_popup.png) no-repeat 0 0;
+}
+
+.popup-body {
+    width: 320px;
+    margin: 0 auto;
+    background: #FFF;
+    border: 1px solid #d0112b;
+    padding: 40px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.popup-body h3 {
+    margin: 20px 0;
+    font: 400 13px/18px 'Helios', sans-serif;
+    text-transform: uppercase;
+    color: #666666;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.all-pages-booking {
+z-index: 20;
+}
+
+.user-content table.space-table tbody tr {
+    background: #fff;
+}
+
+.user-content table.space-table tr td {
+border: 1px solid #cecece;
+}
+.user-content table.space-table thead tr {
+background: #f9f9f9;
+}
+
+.user-content table.space-table thead tr td{
+padding: 8px 4px;
+}
+
+/*--------------------- USER CONTENT STYLES ----------------------------------*/
+.user-content h1,
+.user-content .like-H1 {
+    margin: 30px 0;
+    font: 400 30px/36px 'Rossiya', sans-serif;
+    letter-spacing: 1.8px;
+}
+.user-content h2,
+.user-content .like-H2 {
+    margin: 20px 0;
+    font: 700 21px/25px 'Helios', sans-serif;
+}
+.user-content h3,
+.user-content .like-H3 {
+    margin: 20px 0;
+    font: 400 16px/20px 'Helios', sans-serif;
+}
+.user-content h4,
+.user-content .like-H4 {
+    margin: 20px 0;
+    font: 400 14px/20px 'Helios', sans-serif;
+}
+.user-content p {
+    margin: 20px 0;
+    font: 400 14px/17px 'Arial', sans-serif;
+}
+.user-content p a {
+    text-decoration: underline;
+    color: #d0112b;
+}
+.user-content blockquote {
+    margin: 20px 0;
+    font: 400 14px/20px 'Helios', sans-serif;
+}
+.user-content blockquote p {
+    font: 400 14px/20px 'Helios', sans-serif;
+}
+.user-content table {
+    margin: 30px 0;
+    width: 100%;
+    background: #fff;
+}
+.user-content table thead th {
+    padding: 10px 20px;
+    color: #999;
+    text-align: left;
+    text-transform: uppercase;
+    font: 400 10px/20px 'Helios', sans-serif;
+    letter-spacing: 0.6px;
+}
+.user-content table thead th:first-child {
+    padding-left: 0;
+}
+.user-content table tbody {
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+}
+.user-content table tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+.user-content table tbody td {
+    padding: 25px 0 25px 20px;
+    color: #666;
+    font: 700 16px/20px 'Helios', sans-serif;
+}
+.user-content table tbody td table {
+    margin: -25px 0;
+    background: transparent;
+}
+.user-content table tbody td tbody {
+    border: none;
+}
+.user-content table tbody td tbody tr:nth-child(odd) {
+    background: none;
+}
+.user-content table tbody td td {
+    padding: 25px 0;
+}
+.user-content table tbody td tr {
+    border-bottom: 1px solid #b2b2b2;
+}
+.user-content table tbody td tr:last-child {
+    border-bottom: none;
+}
+.user-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.user-content ul > li {
+    margin: 17px 0;
+    padding-left: 25px;
+    background: url(/local/templates/rossiya_airlines/tpl/img/in-base-64/icon_ul-list-item-red.svg) no-repeat 0 0;
+    background-size: 20px 20px;
+}
+.user-content ul > li ol {
+    margin: 10px 0;
+    padding: 0;
+    list-style-position: inside;
+}
+.user-content ul > li ol > li {
+    margin: 7px 0;
+}
+.user-content ul a {
+    text-decoration: underline;
+    color: #d0112b;
+}
+.user-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.user-content h2.headings {
+    margin: 40px 0 20px;
+    font: 700 18px/24px 'Helios', sans-serif;
+}
+
+.txt-blue {
+    color: #006da4;
+}
+.txt-red {
+    color: #d0112b;
+}
+
+
+.user-content video {
+width: 100%;
+max-width: 600px;
+}
+
+.vac_row {
+    max-width: 1300px;
+}
+.space_spo:nth-child(even) {
+    padding-right: 20px;
+}
+.space_spo:nth-child(odd) {
+    padding-left: 20px;
+}
+
+@media (max-width: 990px) {
+    .space_spo {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .space_spo:nth-child(even), .space_spo:nth-child(odd){
+        padding: 0;
+    }
+}
+
+.nowr {
+    white-space: nowrap;
+}
+
+@media (max-width: 1590px) and (min-width: 1400px) {
+    .nowr {
+        white-space: normal;
+    }
+}
+
+@media (max-width: 980px) {
+    .nowr {
+        white-space: normal;
+    }
+}
+
+.btn-red-custom {
+    color: #d0112b;
+    border-color: #d0112b;
+    margin-top: 30px;
+}
+
+.btn-red-custom.seat:before {
+
+}
+
+.btn-red-custom .icon-toleft-red-custom {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRDAxMTJCIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+
+.btn-red-custom .icon-seat {
+    background-image: url('/local/templates/rossiya_airlines/tpl/img/seat_icon_red.png');
+    float: left;
+    margin: 0 7px 0 -7px;
+    background-size: 11px 16px;
+}
+
+.slick-active:hover .btn-red-custom {
+    background-color: #d0112b;
+    border-color: #d0112b;
+    color: #FFF;
+
+}
+.main-page-slide:hover .btn-red-custom {
+    background-color: #d0112b;
+    border-color: #d0112b;
+    color: #FFF;
+}
+.slick-active:hover .btn-red-custom  .icon-toleft-red-custom, .main-page-slide:hover .btn-red-custom .icon-toleft-red-custom {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+
+
+.slick-active:hover .btn-red-custom  .icon-seat, .main-page-slide:hover .btn-red-custom .icon-seat {
+    background-image: url('/local/templates/rossiya_airlines/tpl/img/seat_icon_white.png');
+}
+
+.timetable_content {
+    overflow-x: unset !important;
+}
+
+/*--------------------- btn color type ---------------------*/
+
+.btn-red-custom.btn-color-type-dyn_r_w {
+    color: #d0112b;
+    border-color: #d0112b;
+}
+
+.btn-red-custom.btn-color-type-dyn_w_r {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.btn-red-custom.btn-color-type-stat_r,
+.main-page-slide:hover .btn-red-custom.btn-color-type-stat_r,
+.slick-active:hover .btn-red-custom.btn-color-type-stat_r {
+    color: #FFF;
+    border-color: #d0112b;
+    background-color: #d0112b;
+}
+
+.btn-red-custom.btn-color-type-stat_w,
+.main-page-slide:hover .btn-red-custom.btn-color-type-stat_w,
+.slick-active:hover .btn-red-custom.btn-color-type-stat_w {
+    color: #d0112b;
+    border-color: #FFF;
+    background-color: #FFF;
+}
+
+.btn-red-custom.btn-color-type-dyn_r_w .icon-toleft-red-custom,
+.btn-red-custom.btn-color-type-stat_w .icon-toleft-red-custom,
+.slick-active:hover .btn-red-custom.btn-color-type-dyn_w_r .icon-toleft-red-custom,
+.main-page-slide:hover .btn-red-custom.btn-color-type-dyn_w_r .icon-toleft-red-custom,
+.slick-active:hover .btn-red-custom.btn-color-type-stat_w .icon-toleft-red-custom,
+.main-page-slide:hover .btn-red-custom.btn-color-type-stat_w .icon-toleft-red-custom {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRDAxMTJCIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+
+.btn-red-custom.btn-color-type-dyn_w_r .icon-toleft-red-custom,
+.btn-red-custom.btn-color-type-stat_r .icon-toleft-red-custom,
+.slick-active:hover .btn-red-custom.btn-color-type-dyn_r_w .icon-toleft-red-custom,
+.main-page-slide:hover .btn-red-custom.btn-color-type-dyn_r_w .icon-toleft-red-custom,
+.slick-active:hover .btn-red-custom.btn-color-type-stat_r .icon-toleft-red-custom,
+.main-page-slide:hover .btn-red-custom.btn-color-type-stat_r .icon-toleft-red-custom {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+.main-page-slide:hover .btn-red-custom.btn-color-type-dyn_r_w {
+    background-color: #d0112b;
+    border-color: #d0112b;
+    color: #FFF;
+}
+
+.main-page-slide:hover .btn-red-custom.btn-color-type-dyn_w_r {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #d0112b;
+}
+
+
+/*--------------------- baggage weight style ----------------------------------*/
+
+.baggage_weight_wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.baggage_weight_wrapper > .desktop_info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+}
+
+.baggage_weight_wrapper > .desktop_info span {
+  margin: 9px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.baggage_weight_wrapper > .baggage_item {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.baggage_weight_wrapper > .baggage_item > p {
+  margin: 0;
+  font: 400 17px/25px "Helios", sans-serif;
+  margin-top: -16px;
+  /* margin-bottom: 9px; */
+}
+
+.baggage_weight_wrapper > .baggage_item > span {
+  /* font: 400 17px/25px 'Helios', sans-serif; */
+  margin: 9px 0;
+  display: inline-block;
+}
+
+.baggage_weight_wrapper > .baggage_item .mob_info {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .baggage_weight_wrapper > .baggage_item {
+      width: 25%;
+      min-width: 245px;
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+    .baggage_weight_wrapper > .desktop_info {
+      display: none;
+    }
+    .baggage_weight_wrapper > .baggage_item {
+        width: auto;
+        font-weight: normal;
+    }
+    .baggage_weight_wrapper > .baggage_item .mob_info {
+        display: block;
+    }
+  }
+
+/* END BAGGAGE */
+
+
+.p-wrapper {
+    display: grid;
+    gap: 15px;
+}
+
+.pw4 {
+    display: grid;
+    grid-template-columns: repeat( 4, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.ps {
+    display: grid;
+    grid-template-rows: 350px 1fr;
+}
+
+.pb {
+    display: grid;
+    grid-template-rows: 400px 1fr;
+}
+
+.pb .photo-item, .ps .photo-item, .pwt .photo-item {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+}
+
+.photo-item.p-center {
+    object-position: center;
+}
+
+.pw3 {
+    display: grid;
+    grid-template-columns: repeat( 3, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.p-wrapper .photo-item {
+    display: block;
+    max-height: 60vw;
+}
+
+.p-wrapper .photo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0112b;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.pb.without-text, .ps.without-text {
+    grid-template-rows: 1fr;
+}
+
+.pb>iframe, .ps>iframe, .pwt>iframe, .pwt>img {
+    height: 100%;
+    width: 100%;
+}
+
+.pwt {
+    height: 365px;
+}
+
+@media screen and (max-width: 1530px) {
+    .pwt {
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1444px) {
+    .pwt {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1339px) {
+    .pw4 {
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+    .pwt {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .pwt {
+        height: 243px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pw3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pb {
+        grid-template-rows: auto 1fr;
+    }
+    .pwt {
+        height: auto;
+    }
+    .pwt.pb_video {
+        min-height: 330px;
+    }
+    .pb a img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .pw4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ps {
+        grid-template-rows: auto 1fr;
+    }
+}
+
+.icon-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 250px));
+    justify-content: center;
+    justify-items: center;
+}
+
+.icon-wrapper .ch-goto {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+    margin-left: 270px!important;
+}
+.fix-m {
+    margin-left: 270px!important;
+}
+
+.fix-h {
+    display: block;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .fix-h {
+        display: unset;
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+
+    .text-justify {
+        text-align: justify;
+        margin-left: 0!important;
+    }
+    .fix-m {
+        margin-left: 0!important;
+    }
+}
+
+@media (max-width: 640px) {
+
+	.entertainment-table {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.entertainment-table tr {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		background-color: #fff !important;
+	}
+
+	.rportal {
+		width: 220px !important;
+		display: block !important;
+		margin-bottom: 20px !important;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 !important;
+	}
+}
+
+@media (max-width: 980px) {
+	.ttflex {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.ttflex tr{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+
+	.ttflex .rportal {
+		width: 100%!important;
+	}
+}
+
+
+.feedback_head {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  color: #d0112b;
+  text-align: center;
+  text-transform: none;
+  /* font: 400 12px/1 'Arial', sans-serif; */
+  /* letter-spacing: 0.84px; */
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: 18px;
+  text-transform: none;
+/*  margin-top: -7px; */
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .feedback_head {
+    text-transform: uppercase;
+    margin-left: 0;
+  }
+}
+
+.feedback_head:hover {
+  border-color: #d0112b;
+}
+
+.feedback_head img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+/* flightmap in header */
+
+.header-top-r {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.mibok_link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mibok_link path,
+.mibok_link circle.fil1 {
+    transition: fill 0.25s ease-in-out;
+
+}
+
+.mibok_link:hover path,
+.mibok_link:hover circle.fil1 {
+    fill: #d0112b;
+}
+
+.flightmap_link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 35px;
+    margin-right: 40px;
+}
+
+.flightmap_link svg {
+    width: 100%;
+    height: 100%;
+}
+
+.flightmap_link svg path {
+    transition: fill 0.25s ease-in-out;
+}
+
+.flightmap_link:hover svg path {
+    fill: #d0112b;
+}
+
+@media screen and (max-width: 1200px){
+    .flightmap_link {
+        margin-right: 10px;
+        /* width: 28px; */
+    }
+    
+    .header-socials {
+        margin-right: 20px!important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .mibok_link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .header-socials {
+        margin-right: auto!important;
+        /* margin-left: auto; */
+    }
+    
+    .flightmap_link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .flightmap_link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .mibok_link {
+        display: inline-flex;
+        display: none;
+    } 
+    
+    .flightmap_link {
+        display: inline-flex;
+        display: none;
+    }
+}
+
+
+.mobile_buttons {
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 31px;
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .mobile_buttons {
+        display: flex;
+    }
+}
+
+.mobile_buttons > *:not(:first-child){
+    margin-top: 15px;
+    width: 100%;
+}
+
+.mobile_buttons a {
+    width: 100%;
+}
+
+.header-mobile-socials {
+    margin-left: 0!important;
+}
+
+.header-mobile-flightmap .flightmap_link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 10px;
+    color: #d0112b;
+    text-transform: none;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 18px;
+    text-transform: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+.header-mobile-flightmap .flightmap_link svg{
+    height: 24px;
+    width: 25.25px;
+    margin-right: 10px;
+}
+
+.header-mobile-flightmap .flightmap_link:hover {
+    border-color: #d0112b;
+}
+
+.header-mobile-flightmap .flightmap_link:hover svg path {
+    fill: #898989;
+}
+/* flightmap in header */

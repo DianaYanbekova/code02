@@ -1,0 +1,1940 @@
+.footer-nav-item .nav-link small{
+    display: inline-block;
+}
+.user-content .searcher-drop .searcher-drop-list li {
+    background: none;
+    padding:initial;
+    margin:initial;
+}
+.user-content a {
+    text-decoration: underline;
+    color: #d0112b;
+}
+.table-head-meal + .special-meal-table thead {
+    opacity: 1;
+}
+.user-content .table-head-meal {
+    display: none;
+}
+.user-content {
+    width: 100%;
+    overflow-x: auto;
+}
+.g-recaptcha {
+    display: none;
+}
+.main-page-redline .line>div[id*='bx_incl_area_'] .main-page-booking{
+    float:left;
+    width: inherit;
+}
+.main-page-slide .slide-middle .slide-title {
+    /*position: absolute;*/
+}
+.main-page-redline .line>div[id*='bx_incl_area_']:first-child{
+    float:left;
+}
+.main-page-slide .slide-middle{
+    display: block;
+    padding: 63px 11px 2px 63px;
+}
+.user-content{
+    font: 400 14px/17px 'Arial', sans-serif;
+}
+.header-top div[id*='bx_incl_area_'] {
+    display: inline-block;
+}
+.submenu-item-title a:hover {
+    color: #d0112b;
+}
+.main-page-redline div[id*='bx_incl_area_'] {
+    height: 100%;
+}
+.main-page-program {
+    background: #0B71A1;
+}
+.header-midl-menu {padding: 0px 45px 5px 167px;
+}
+.header-midl-submenu .submenu-wrap {
+    padding-left: 0;
+
+
+}
+
+/*
+.header-midl-submenu .submenu-wrap:last-of-type {
+
+    padding-right: 26px;
+    margin-left: -227px !important;
+    max-width: 400px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.header-midl-submenu .submenu-wrap.active:last-of-type {
+    background: white;
+}
+.header-midl-submenu.js-tabs-body {
+    position: absolute;
+    background: white;
+}
+
+*/
+
+  .header-midl-submenu .submenu-wrap:last-of-type {
+        /* flex-flow: row-reverse; */
+        padding-right: 26px;
+        margin-left: -227px !important;
+        max-width: 400px;
+        /* -webkit-transition: none;
+        -o-transition: none;
+        transition: none; */
+    }
+    .header-midl-submenu .submenu-wrap.active {
+        background: white;
+    }
+    .header-midl-submenu.js-tabs-body {
+        position: absolute;
+        /* background: white; */
+    }
+
+.clmn-1-of-6 {
+    width: 19.66%;
+}
+
+.user-content {
+    /*max-width: 800px;*/
+
+}
+
+.user-content table tbody td {
+    padding: 25px 0 25px 20px;
+    color: #666;
+    font: 100 12px/20px 'Helios', sans-serif;
+}
+
+.breadcrumbs li span {
+    padding: 0 8px;
+}
+
+.breadcrumbs li:last-child span {
+    padding-right: 0;
+}
+
+.main-page-booking {
+    width: 25%;
+}
+
+.main-page-slider {
+    margin-left: 25%;
+}
+
+.main-page-news {
+    padding-right: 0;
+}
+.wrapper{
+    min-height: auto;
+}
+.user-content table tbody td.color-red {
+    color: #d0112b;
+}
+@media (max-width: 1400px){
+    .header-midl-menu {
+        padding: 0 0 0 45px;
+    }
+    .header-midl-submenu .submenu-wrap {
+        /* padding-left: 45px; */
+    }
+    .user-content table {
+        /*    display: block;
+            overflow-y: scroll;*/
+    }
+}
+@media (max-width: 1500px){
+    .header-midl-nav {
+        clear: both;
+        margin: 0 0 0 300px;
+        padding-top: 5px;
+    }
+
+
+    .user-content p.txt-bold {
+        font-weight: 700;
+    }
+
+    .user-content table.special-meal-table tbody tr {
+        background: rgb(138,138,141);
+        color: #FFF;
+    }
+
+    .user-content table.special-meal-table tbody tr td {
+        text-align: center;
+        padding-left: 0;
+        /*color: #FFF;*/
+    }
+    .user-content table.special-meal-table thead tr th {
+        text-align: center;
+    }
+    .user-content table.special-meal-table thead tr th:first-child {
+        text-align: left;
+    }
+    .user-content table.special-meal-table tbody tr td:first-child {
+        background: #EEE;
+        color: #666;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .user-content table.special-meal-table tbody tr td.blue {
+        background: rgb(27,62,111);
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main-page-slide .slide-text{
+        /*display:none;*/
+    }
+}
+.holeban {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.d_img {
+    width: 36px;
+}
+.d_img img {
+    width: 16px;
+    height: 16px;
+}
+
+.vac_row:after {
+    /*clear: both;
+    content: "";
+    display: table;*/
+}
+.user-content ul.vac_list {
+    padding: 10px 0;
+}
+.vac_row .vac_img {
+    max-width: 360px;
+    float: right;
+}
+.vac_row .vac_text {
+    /*margin-left: 400px;*/
+}
+
+@media (max-width: 600px) {
+    .vac_row .vac_img {
+        float: none;
+        display: none;
+        max-width: 100%;
+        text-align: center;
+    }
+    .vac_row .vac_text {
+        margin-left: 0;
+    }
+}
+
+.user-content ul.dangerous > li {
+    margin: 17px 0;
+    padding-left: 100px;
+    background-size: 80px 80px;
+    background: none;
+    display: table;
+    height: 80px;
+    min-height: 80px;
+}
+.user-content ul.dangerous > li.ico1{
+    background: url(tpl/img/dangerous/ico1.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico2{
+    background: url(tpl/img/dangerous/ico2.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico3{
+    background: url(tpl/img/dangerous/ico3.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico4{
+    background: url(tpl/img/dangerous/ico4.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico5{
+    background: url(tpl/img/dangerous/ico5.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico6{
+    background: url(tpl/img/dangerous/ico6.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico7{
+    background: url(tpl/img/dangerous/ico7.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico8{
+    background: url(tpl/img/dangerous/ico8.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico9{
+    background: url(tpl/img/dangerous/ico9.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico10{
+    background: url(tpl/img/dangerous/ico10.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico11{
+    background: url(tpl/img/dangerous/ico11.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico12{
+    background: url(tpl/img/dangerous/ico12.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico13{
+    background: url(tpl/img/dangerous/ico13.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico14{
+    background: url(tpl/img/dangerous/ico14.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li.ico15{
+    background: url(tpl/img/dangerous/ico15.jpg) no-repeat 0 0;
+}
+
+.user-content ul.dangerous > li h3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.footer-nav-item .nav-link.nav-link-t {
+    /*font: 400 14px/18px 'Rossiya', sans-serif;
+    letter-spacing: 0;*/
+    white-space: nowrap;
+    margin-bottom: 4px;
+    padding-left: 36px;
+}
+
+.footer-nav-item .nav-link.nav-link-t span {
+    font: 400 13px/18px 'Arial', sans-serif;
+    text-transform: none;
+    color: #808080;
+    letter-spacing: 0;
+}
+.with-phone {
+    position: relative;
+}
+.with-phone:before {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    left: 0;
+    top: 2px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBmaWxsPSJub25lIiBkPSJNMS4xMTUgMS4wNjdoMTcuMzU3VjE4LjczSDEuMTE1eiIvPjxwYXRoIGZpbGw9IiMwMDZEQTQiIGQ9Ik0xNy4wOTYgMTcuNTQ1bC4zNzMtLjE2OGMxLjU5LS43MTQgMS4wNi0xLjczIDAtMi44MWwtLjY0Mi0uNjVjLS45MzYtLjk0NC0xLjk2NS0xLjYxNy0zLjI4My0xLjI4M2wzLjU1IDQuOTF6Ii8+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTEuMTE1IDEuMDY3aDE3LjM1N1YxOC43M0gxLjExNXoiLz48cGF0aCBmaWxsPSIjMDA2REE0IiBkPSJNOS4wNyA2LjQzYzEuMDE3LS43NDYuODA0LTEuNzk2LjI0OC0yLjkxNGwtLjM4LS43N0M4LjI5NSAxLjQ3NyA3LjQ2LjU5NyA1Ljg5IDEuMzQzbC0uMzcuMTc2TDkuMDcgNi40M3oiLz48cGF0aCBmaWxsPSJub25lIiBkPSJNMS4xMTUgMS4wNjdoMTcuMzU3VjE4LjczSDEuMTE1eiIvPjxwYXRoIGZpbGw9IiMwMDZEQTQiIGQ9Ik0xMS43MzggMTMuODk4Yy0uODk2LjMyNi0yLjQ4OC40NDUtNC42NjQtMi40MTRDNS4wNjQgOC41NSA1Ljk5IDcuNTEgNi43OTIgNy4wNUwzLjU0OCAyLjU1NmMtLjc0My41MDgtMS41NTMgMS4yNTgtMi4wOCAyLjM2LTEuMDMgMi4xNDUuMzMgNC4zNDcgMi4yODYgNy4zNThsLS4wMjUuMDFjLjEzNS4xOTUuMjc3LjM2Ny40MTQuNTU0LjEzMy4xODcuMjUuMzcuMzkuNTYybC4wMjYtLjAxMmMyLjI4MyAyLjg1NyAzLjk5IDQuOSA2LjgzIDUuMjYyIDEuNDU0LjE4OCAyLjY3IDAgMy41OTUtLjI2bC0zLjI0Ny00LjQ5NHoiLz48L3N2Zz4=);
+}
+
+.footer-nav-item .nav-note.no-marg {
+
+    margin-top: 0;
+}
+#pop-online-confirm .popup-body {
+    padding: 20px;
+    color: #808080;
+    font-size: 12px;
+    letter-spacing: .4px;
+    text-align: left;
+}
+
+
+.online-rules {
+    position: relative;
+    margin-top: 30px;
+}
+.online-rules a {
+    color: #d0112b;
+    text-decoration: underline;
+}
+.online-rules .form-checkbox {
+    position: absolute;
+    top: 4px;
+}
+
+#pop-online-confirm {
+    font: 400 12px/16px 'Helios', sans-serif;
+}
+
+.online-rules .rules-text {
+    padding-left: 40px;
+    font: 400 12px/18px 'Helios', sans-serif;
+}
+
+#pop-online-confirm .popup-body,  #pop-online-confirm .popup-wrap{
+    width: 380px;
+}
+
+
+@media (max-width: 480px) {
+    #pop-registration .popup-wrap,
+    #pop-registration-book .popup-wrap,
+    #pop-online-confirm .popup-wrap {
+        width: 320px;
+    }
+
+    #pop-registration .popup-body,
+    #pop-registration-book .popup-body,
+    #pop-online-confirm .popup-body{
+        padding: 20px 30px;
+    }
+
+    #pop-registration .popup-body,
+    #pop-registration-book .popup-body,
+    #pop-online-confirm .popup-body,
+    #pop-online-confirm .popup-wrap,
+    #pop-registration-book .popup-wrap
+    #pop-registration .popup-wrap{
+        width: 320px;
+
+    }
+    #pop-registration .popup-wrap,
+    #pop-registration-book .popup-wrap,
+    #pop-online-confirm .popup-wrap {
+        margin-left: -160px;
+    }
+
+    .user-content table {
+        display: block;
+        overflow-y: scroll;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #pop-registration .popup-close,
+    #pop-registration-book .popup-close,
+    #pop-online-confirm .popup-close{
+        right: 6px;
+        z-index: 5;
+    }
+}
+
+.txt-blue {
+    color: #006da4;
+}
+.txt-red {
+    color: #d0112b;
+}
+
+.time-select {
+    background: #ffffff no-repeat right center url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQ2cHgiIGhlaWdodD0iNDZweCIgdmlld0JveD0iNTc1Ljk4OCA2NjguOTg4IDQ2IDQ2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDU3NS45ODggNjY4Ljk4OCA0NiA0NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iIzY2NjY2NiIgZD0iTTU5NC45ODgsNjgxLjk3NmMtNS41MjgsMC0xMC4wMTQsNC40ODMtMTAuMDE0LDEwLjAxNWMwLDUuNTI4LDQuNDg0LDEwLjAxMSwxMC4wMTQsMTAuMDExYzUuNTI4LDAsMTAuMDEzLTQuNDgyLDEwLjAxMy0xMC4wMTJDNjA1LDY4Ni40NTgsNjAwLjUxOCw2ODEuOTc2LDU5NC45ODgsNjgxLjk3NnogTTU5NC45ODgsNzAwLjU1Yy00LjcyNywwLTguNTYyLTMuODM0LTguNTYyLTguNTYyYzAtNC43MjksMy44MzUtOC41NjMsOC41NjItOC41NjNjNC43MjksMCw4LjU2MywzLjgzNCw4LjU2Myw4LjU2M0M2MDMuNTUsNjk2LjcxOSw1OTkuNzE3LDcwMC41NSw1OTQuOTg4LDcwMC41NXoiLz48cG9seWdvbiBmaWxsPSIjNjY2NjY2IiBwb2ludHM9IjU5NS43NSw2ODYuMzI4IDU5NC4yMjYsNjg2LjMyOCA1OTQuMjI2LDY5Mi4zMDQgNTk3LjkzMiw2OTYuMDA5IDU5OS4wMDksNjk0LjkzMiA1OTUuNzUsNjkxLjY3MyAiLz48L3N2Zz4=);
+    background-size: 36px 36px;
+}
+
+.tr-period {
+    /*display: block;*/
+}
+
+.tr-period:not(.show) {
+    display: none;
+}
+
+.resume-block .padbot {
+    padding-bottom: 20px;
+}
+
+.resume-block .sbmt_btn:disabled {
+    background: #E7E7E7;
+    cursor: default;
+    border-color: #E7E7E7;
+}
+
+
+.resume-block {
+    max-width: 780px;
+    padding-top: 20px;
+}
+
+.resume-block h3 {
+    margin-bottom: 0px;
+}
+.resume-block h3 span.red {
+    color: red;
+    padding: 0 2px;
+}
+.resume-block textarea:active,
+.resume-block textarea:focus{
+    outline: none;
+}
+
+.resume-block table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.resume-block table tr td .red {
+    color:red;
+    padding: 0 2px;
+}
+
+.resume-block table tr td input[type="text"],
+.resume-block table tr td input[type="email"],
+.resume-block table tr td input[type="tel"] {
+    width: 100%;
+}
+
+.resume-block table tr td textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+.resume-block table tr td {
+    padding: 6px 0;
+}
+
+
+.resume-block table tr td:nth-child(2) span{
+    display: block;
+    font-size: 10px;
+}
+.resume-block table tr td:nth-child(2) .form-radio > span {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    font: 400 12px/18px 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.user-content .resume-block table tbody {
+    border: none;
+}
+
+.user-content .resume-block table tbody tr {
+    background: #FFF;
+}
+
+.resume-block table tr .form-line {
+    margin: 0;
+}
+
+.resume-block table tr .form-line.radio-line {
+    margin: 4px 0;
+}
+.resume-block table tr td:first-child {
+    width: 33%;
+    min-width: 240px;
+}
+.user-content .resume-block .form-line.inline-checkboxes label {
+    margin-right: 10px;
+}
+
+.main-page-bline .line {
+    padding: 0;
+}
+.main-page-bline .line.has-left-inset {
+    padding-left: 80px;
+}
+
+.main-page-bline .bleft-main {
+    width: 50%;
+    float: left;
+}
+
+.main-page-bline .bleft-main .main-b-one {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+    position: relative;
+    height: 350px;
+}
+
+.main-page-bline .bleft-main .main-b-one:first-child {
+    float: right;
+}
+
+.main-page-bline .bleft-main .main-b-one .back-b-main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 60px 20px 40px 40px;
+    color: #FFF;
+}
+
+.main-page-bline .bleft-main .main-b-one .program-title {
+    height: 54px;
+    /*max-width: 280px;*/
+    max-width: 330px;
+    margin-bottom: 10px;
+    font: 700 18px/18px 'Helios', sans-serif;
+    overflow: hidden;
+}
+
+.main-page-bline .bleft-main .main-b-one .program-note {
+    height: 126px;
+    margin: 10px 0 24px;
+    max-width: 260px;
+    font: 400 13px/17px 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.main-page-bline .bleft-main .main-b-one:last-child .back-b-main{
+    left: -80px;
+    padding-left: 80px;
+}
+
+.main-page-bline .bleft-main.has-left-inset {
+    padding-left: 80px;
+}
+.main-page-bline .bleft-main .main-b-one .back-b-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-page-bline .main-page-program {
+    background: #d0112b;
+}
+
+@media (max-width: 540px) {
+    .resume-block table tr td:first-child {
+        width: 50%;
+        min-width: 160px;
+    }
+}
+
+@media (max-width: 540px) {
+    .tr-period .clmn-half {
+        width: 100%;
+        padding: 0;
+    }
+    .tr-period .clmn-half:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main-page-bline .main-page-program {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-page-bline .bleft-main {
+        width: 100%;
+    }
+    .main-page-bline .main-page-program {
+        padding-left: 80px;
+        width: auto;
+    }
+    .main-page-bline .bleft-main .main-b-one:last-child .back-b-main {
+        left: -40px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width: 780px){
+    .main-page-bline .line.has-left-inset {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-page-bline .bleft-main .main-b-one {
+        width: 100%;
+        float: none;
+    }
+    .main-page-bline .bleft-main .main-b-one:last-child .back-b-main {
+        left: -60px;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-page-bline .line.has-left-inset {
+        padding-left: 50px;
+    }
+}
+
+
+.baggage{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    color: #000;
+    font: 700 14px/21px 'Rossiya';
+    cursor: pointer;
+    background: no-repeat right center url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+.baggage:hover {
+    color: #006da4;
+    background: no-repeat right center url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjMDA2ZGE0IiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+.accord+div {
+    display: none;
+    clear: both;
+    width: 100%;
+}
+.accord+div *:first-child {
+    margin-top: 0;
+}
+.accord+div *:last-child {
+    margin-bottom: 0;
+}
+
+.mxw400 {
+    max-width: 400px;
+}
+
+.user-content .baggage-page table tbody td {
+    padding: 25px 15px 25px 15px;
+
+}
+
+.user-content .baggage-page table thead th.txt-center {
+    text-align: center;
+}
+
+.baggage.txt-blue {
+    color: #006da4;
+    background: no-repeat right center url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAgMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMwMDZkYTQiIGQ9Ik05LjQwMiwxMC42ODRjMi43NTQtMi43NTUsNC45NjktMy42MDMsNi45MTEtMi44ODJsLTYuMzEzLDYuMzEyIi8+PHBhdGggZmlsbD0iIzAwNmRhNCIgZD0iTTEwLjU5OCwxMC42ODRjLTIuNzU0LTIuNzU1LTQuOTY2LTMuNjAzLTYuOTEtMi44ODJMMTAsMTQuMTEzIi8+PC9zdmc+);
+
+}
+
+.tiger-news {
+    margin-top: 60px;
+}
+
+.tiger-news h2.txt-blue {
+    font-family: 'Rossiya', sans-serif;
+}
+
+.tiger-news .tiger-news-archive {
+    padding: 10px 0;
+    text-align: right;
+}
+.tiger-news .tiger-news-archive a{
+    text-decoration: underline;
+    color: #d0112b;
+}
+
+.user-content .spo-news a {
+    text-decoration: none;
+}
+
+.user-content .spo-news .spo-title a {
+    color: #016da4;
+}
+
+.user-content .spo-news:hover .spo-title a{
+    color: #FFF;
+}
+
+.nav-note .line-phone {
+    display: block;
+    white-space: nowrap;
+}
+
+.footer-nav-item.nothover .nav-link:hover .icon-phone {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBmaWxsPSJub25lIiBkPSJNMS4xMTUgMS4wNjdoMTcuMzU3VjE4LjczSDEuMTE1eiIvPjxwYXRoIGZpbGw9IiMwMDZEQTQiIGQ9Ik0xNy4wOTYgMTcuNTQ1bC4zNzMtLjE2OGMxLjU5LS43MTQgMS4wNi0xLjczIDAtMi44MWwtLjY0Mi0uNjVjLS45MzYtLjk0NC0xLjk2NS0xLjYxNy0zLjI4My0xLjI4M2wzLjU1IDQuOTF6Ii8+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTEuMTE1IDEuMDY3aDE3LjM1N1YxOC43M0gxLjExNXoiLz48cGF0aCBmaWxsPSIjMDA2REE0IiBkPSJNOS4wNyA2LjQzYzEuMDE3LS43NDYuODA0LTEuNzk2LjI0OC0yLjkxNGwtLjM4LS43N0M4LjI5NSAxLjQ3NyA3LjQ2LjU5NyA1Ljg5IDEuMzQzbC0uMzcuMTc2TDkuMDcgNi40M3oiLz48cGF0aCBmaWxsPSJub25lIiBkPSJNMS4xMTUgMS4wNjdoMTcuMzU3VjE4LjczSDEuMTE1eiIvPjxwYXRoIGZpbGw9IiMwMDZEQTQiIGQ9Ik0xMS43MzggMTMuODk4Yy0uODk2LjMyNi0yLjQ4OC40NDUtNC42NjQtMi40MTRDNS4wNjQgOC41NSA1Ljk5IDcuNTEgNi43OTIgNy4wNUwzLjU0OCAyLjU1NmMtLjc0My41MDgtMS41NTMgMS4yNTgtMi4wOCAyLjM2LTEuMDMgMi4xNDUuMzMgNC4zNDcgMi4yODYgNy4zNThsLS4wMjUuMDFjLjEzNS4xOTUuMjc3LjM2Ny40MTQuNTU0LjEzMy4xODcuMjUuMzcuMzkuNTYybC4wMjYtLjAxMmMyLjI4MyAyLjg1NyAzLjk5IDQuOSA2LjgzIDUuMjYyIDEuNDU0LjE4OCAyLjY3IDAgMy41OTUtLjI2bC0zLjI0Ny00LjQ5NHoiLz48L3N2Zz4=);
+}
+
+.resume-block table tr td:nth-child(2) .form-checkbox span {
+    padding-left: 24px;
+    font-size: 12px;
+}
+
+.user-content table.no-lines tbody {
+    border: none;
+}
+
+
+.main-page-bline .main-page-program.red-program {
+    color: #000000;
+    /*color: #d0112b;*/
+    float: right;
+}
+
+
+.main-page-bline .main-page-program.red-program .btn-white {
+    color: #000000;
+    border-color: #000000;
+    /*color: #d0112b;*/
+    /*border-color: #d0112b;*/
+}
+
+.main-page-bline .main-page-program.red-program .btn-white:hover {
+    /*color: #fff;*/
+    /*border-color: #d0112b;*/
+    /*background-color: #d0112b;*/
+    color: #000000;
+    border-color: #d0112b;
+    background-color: #d0112b;
+}
+.main-page-bline .main-page-program.red-program .btn.btn-white .icon-toleft-white {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRDAxMTJCIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+}
+
+.main-page-bline .main-page-program.red-program .btn.btn-white:hover .icon-toleft-white {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+)
+}
+
+.main-page-bline .main-page-program.red-program:hover .btn.btn-white .icon-toleft-white {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+)
+}
+
+.main-page-bline.three-bs .bleft-main .main-b-one .program-title {
+    font: 700 16px/18px 'Helios', sans-serif;
+}
+.main-page-program.red-program .program-title {
+    font: 700 16px/18px 'Helios', sans-serif;
+}
+.main-page-bline.three-bs .btn-white:hover {
+    background-color: #d0112b;
+    border-color: #d0112b;
+}
+
+.main-page-bline.three-bs .back-b-main:hover .btn-white {
+    background-color: #d0112b;
+    border-color: #d0112b;
+}
+
+.main-page-bline .main-page-program.red-program:hover .btn.btn-white {
+    background-color: #d0112b;
+    border-color: #d0112b;
+    color: #FFF;
+}
+
+.main-page-program .program-title {
+    font: 700 16px/18px 'Helios', sans-serif;
+}
+
+.main-page-program.red-program .program-txt {
+    margin-top: 40px;
+}
+.main-page-program.red-program .program-note {
+    margin-bottom: 14px;
+    height: 136px;
+}
+
+.main-page-bline .bleft-main .main-b-one {
+    position: relative;
+}
+.main-page-bline .main-page-program.red-program {
+    position: relative;
+}
+
+.main-page-bline.three-bs a.whole {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.user-content table.z-menu-page tbody td {
+    padding-left: 0;
+}
+
+.user-content table.z-menu-page tbody td a {
+    text-decoration: none;
+    font: 700 12px/21px 'Rossiya', sans-serif;
+}
+
+.user-content table.z-menu-page tbody tr:nth-child(odd),
+.user-content table tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+.user-content table.z-menu-page tbody td div {
+    display: inline-block;
+}
+
+.user-content table.z-menu-page tbody tr td{
+    text-align: center;
+}
+/*
+.user-content table.z-menu-page tbody tr td:nth-child(3){
+    text-align: right;
+}
+*/
+.user-content table.z-menu-page {
+    margin-bottom: 40px;
+}
+
+.user-content h2.h2-rossiya {
+    font-family: 'Rossiya';
+}
+
+.user-content table.z-menu-page tbody {
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+}
+
+
+.header-midl-submenu .submenu-item-important a.has-icon-registr {
+    background-image: url(/local/templates/rossiya_airlines/tpl/img/plane-icon.png);
+}
+
+.header-midl-submenu .submenu-item-important a.has-icon-baggage {
+    background-image: url(/local/templates/rossiya_airlines/tpl/img/luggage-icon.png);
+}
+.header-midl-submenu .submenu-item-important a.has-icon-blounge {
+    background-image: url(/local/templates/rossiya_airlines/tpl/img/vip-hall-red.png);
+}
+.header-midl-submenu .submenu-item-important a.has-icon-seat {
+    background-image: url(/local/templates/rossiya_airlines/tpl/img/seat-icon.png);
+}
+.roz_b_img {
+    float: right;
+    max-width: 480px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user-content .roz_b_img img {
+    max-height: 420px;
+    display: block;
+    margin: 0 auto;
+}
+.user-content .roz_b_img a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 100;
+}
+.user-content ul.faq__list > li {
+    margin: 0;
+    padding: 20px 0 20px 25px;
+}
+.faq__list > li:nth-child(even) {
+    background: #fff;
+}
+.faq__list > li:nth-child(odd) {
+    background: #f9f9f9;
+}
+.faq__list .faq__toggle {
+    font: 400 14px/20px 'Helios', sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+.faq__list .faq__toggle:hover, .faq__list .faq__toggle.active {
+    color: #006ca3;
+}
+.faq__list .faq__toggle .faq__theme-icon {
+    margin-left: 10px;
+    background-image: url("/local/templates/rossiya_airlines/tpl/img/arrow-theme-passive.png");
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.faq__list .faq__toggle.active .faq__theme-icon {
+    background-image: url("/local/templates/rossiya_airlines/tpl/img/arrow-theme-active.png");
+}
+.faq__list .faq__hide .faq__question-icon {
+    margin-left: 6px;
+    background-image: url("/local/templates/rossiya_airlines/tpl/img/arrow-question_.png");
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.faq__list .faq__hide {
+    display: none;
+}
+
+.user-content ul.faq__hide > li {
+    background: transparent;
+}
+
+.user-content ul.faq__hide > li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.faq__hide > li a:hover {
+    color: #006ca3;
+}
+
+.faq__list .faq__hide a:hover .faq__question-icon {
+    background-image: url("/local/templates/rossiya_airlines/tpl/img/arrow-question__blue.png");
+}
+
+@media (max-width: 800px) {
+    .roz_b_img {
+        float: none;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1365px) {
+    .user-content table.refundTable {
+        display: block;
+        overflow-y: scroll;
+
+    }
+    .user-content table.refundTable td{
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main-page-bline .main-page-program.red-program {
+        float: none;
+
+    }
+    .bx-ie .main-page-bline .bleft-main .main-b-one .back-b-main.video_main video {
+        left: 0 !important;
+    }
+    .main-page-bline .main-page-program {
+        padding-left: 80px;
+    }
+    .main-page-bline .bleft-main {
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .main-page-bline .bleft-main .main-b-one:last-child .back-b-main {
+        left: -80px;
+        padding-left: 80px;
+    }
+}
+@media (max-width: 600px) {
+    .main-page-bline .bleft-main .main-b-one:first-child {
+        float: none;
+    }
+    .main-page-bline .bleft-main .main-b-one:first-child .back-b-main{
+        left: -80px;
+        padding-left: 80px;
+    }
+    .bx-ie .main-page-bline .bleft-main .main-b-one .back-b-main.video_main video {
+        width: 100% !important;
+    }
+}
+
+
+.tabs_form {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: -80px;
+    margin-right: -30px;
+    margin-top: -20px;
+    height: 70px;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: flex;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.all-pages-booking .tabs_form {
+    margin-right: -10px;
+}
+.tabs_form li {
+    float: left;
+    width: 50%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.tabs_form li.active {
+
+}
+.tabs_form li a.booking-accordion-btn{
+    color: #FFF;
+    opacity: 1;
+}
+.tabs_form li a {
+    line-height: 16px;
+}
+
+.tabs_form li:after {
+
+}
+.tabs_form li:first-child {
+    padding-left: 80px;
+}
+.tabs_form li:last-child {
+
+}
+.tabs_form li:first-child a{
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiIHZpZXdCb3g9Ii0zIC0yLjUwMSAzMCAzMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAtMyAtMi41MDEgMzAgMzAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNiw2LjQ5N0w4LjY0OSw1Ljk3Mkw1LDAuNDk3SDRsMC44MzQsNWgtMi41TDEsMy40OTdIMGwwLjY2Nyw0bC0wLjY2Nyw0aDFsMS4zMzQtMmgyLjVsLTAuODM0LDVoMWwzLjY1LTUuNDc1TDE2LDguNDk3YzAuNTUzLDAsMS0wLjQ0OCwxLTFDMTcsNi45NDUsMTYuNTUzLDYuNDk3LDE2LDYuNDk3IE00Ljg2OCw1LjcwMkg0Ljg2NGwwLjAwMy0wLjAwNUw0Ljg2OCw1LjcwMnogTTQuODY3LDkuMjk3TDQuODY0LDkuMjkyaDAuMDA0TDQuODY3LDkuMjk3eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yMy43MjUsNS45MjhjLTAuNTU1LTIuMDY1LTEuODc3LTMuNzg5LTMuNzI4LTQuODU4Yy0zLjgyLTIuMjA1LTguNzIzLTAuODkyLTEwLjkyOSwyLjkyOEM5LjA2Myw0LjAwNyw5LjA1OSw0LjAxNiw5LjA1NCw0LjAyNGMwLDAsMS4wMjksMC4yOTcsMi4xNDcsMC4zNzdDMTIuMzU4LDIuODU3LDE0LjE1OCwyLDE2LjAwNiwyYzEuMDIsMCwyLjA0OSwwLjI1OCwyLjk5MSwwLjgwM2MyLjg2NCwxLjY1NCwzLjg1MSw1LjMzLDIuMTk2LDguMTk1Yy0xLjY1NCwyLjg2NC01LjMzMiwzLjg1LTguMTk2LDIuMTk2Yy0wLjk0NC0wLjU0NS0xLjY4MS0xLjMwOS0yLjE4OC0yLjE5MmMtMC4xODQtMC4zMjEtMC4zMzgtMC42NTctMC40Ni0xLjAwM2wtMS43NTYsMC45OTdDOC43MTEsMTEuMjksOC44NDcsMTEuNTc3LDksMTEuODU2YzAuMzQ5LDAuNjQsMC43OTEsMS4yMzIsMS4zMTMsMS43NjRDOC4yNCwxNS41LDIuMDY1LDIxLjEwMywxLjU4NiwyMS41ODNjLTAuNzgxLDAuNzgxLTAuNzgxLDIuMDQ3LDAsMi44MjhjMC43ODEsMC43ODEsMi4wNDcsMC43ODEsMi44MjgsMGMwLjUyNC0wLjUyMyw2Ljk2NC03LjYyNSw4LjMyLTkuMTIxYzEuMDQ5LDAuNDY5LDIuMTUyLDAuNzA3LDMuMjQ4LDAuNzA3YzIuNzY3LDAsNS40NjMtMS40MzYsNi45NDEtMy45OTlDMjMuOTk0LDEwLjE0NywyNC4yNzcsNy45OTIsMjMuNzI1LDUuOTI4IE0zLDIzLjk5N0gydi0xaDFWMjMuOTk3eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xNiwxMi45OTdjMi4yMTEsMCw0LTEuNzg5LDQtNGgtMWMwLDEuNjU4LTEuMzQyLDMtMywzVjEyLjk5N3oiLz48L3N2Zz4=) no-repeat;
+    background-size: 20px;
+    background-position: left center;
+    padding-left: 30px;
+}
+.tabs_form li:last-child a {
+    padding-left: 66px;
+    background: url('/local/templates/rossiya_airlines/tpl/img/booktab.svg') no-repeat left 30px center;
+    background-size: 20px;
+}
+.tabs_form li:last-child:before {
+    content: " ";
+    height: 70px;
+    width: 306px;
+    position: absolute;
+    left: -56px;
+    top: 0;
+    background: url(/local/templates/rossiya_airlines/tpl/img/right_active_2.png) no-repeat;
+}
+.tabs_form li:first-child:before {
+    content: " ";
+    height: 70px;
+    width: 306px;
+    position: absolute;
+    right: -56px;
+    top: 0;
+    background: url(/local/templates/rossiya_airlines/tpl/img/left_active_2.png) no-repeat;
+}
+
+.tabs_form li:first-child.active:before {
+    content: none;
+}
+.tabs_form li:last-child.active:before {
+    content: none;
+}
+.tabs_form li .booking-accordion-btn:after {
+    content: none;
+}
+
+.tab_item {
+    display: none;
+}
+.tab_item.active {
+    display: block;
+}
+#book-online {
+    margin-top: 30px;
+}
+#book-online .form-input{
+    font: 400 12px/20px 'Arial', sans-serif;
+}
+.it_label {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+@media (max-width: 1600px){
+    .tabs_form li a.booking-accordion-btn {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+}
+
+@media (max-width: 1460px){
+    .tabs_form li:first-child:before {
+        right: -70px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 991px){
+    .tabs_form li:last-child:before {
+        left: -50px;
+    }
+    .tabs_form li:last-child a {
+        padding-left: 52px;
+        background: url(/local/templates/rossiya_airlines/tpl/img/booktab.svg) no-repeat left 24px center;
+    }
+    .tabs_form {
+        margin-right: -60px;
+    }
+}
+@media (max-width: 1200px){
+    .main-page-booking {
+        width: 320px;
+    }
+    .main-page-slider {
+        margin-left: 320px;
+    }
+}
+@media (max-width: 990px){
+    .main-page-booking.active{
+
+    }
+    .tabs_form {
+        margin-right: -20px;
+    }
+    .main-page-booking {
+        padding: 20px 20px 20px 40px !important;
+    }
+    .tabs_form li:last-child:before {
+        left: -44px;
+    }
+}
+@media (max-width: 500px){
+    .tabs_form {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .tabs_form li a.booking-accordion-btn {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .tabs_form li:first-child {
+        padding-left: 10px;
+    }
+    .main-page-booking {
+        padding: 10px !important;
+    }
+
+    .tabs_form li:last-child a {
+        padding-left: 30px;
+        background: url(/local/templates/rossiya_airlines/tpl/img/booktab.svg) no-repeat left 2px center;
+    }
+    .tabs_form li:last-child:before {
+        width: 232px;
+        left: -72px;
+
+    }
+    .tabs_form li:first-child:before {
+        right: -44px;
+
+    }
+}
+
+.header-midl-logo.ny_logo {
+    width: 460px;
+}
+
+.iframe_widget {
+    min-height: 1000px;
+}
+
+.booking-accordion-body {
+    padding: 5px 0 5px;
+}
+
+.booking-accordion-btn i.booking-hall {
+    background-image: url('/local/templates/rossiya_airlines/tpl/img/vip-hall-white.png');
+}
+.booking-accordion-btn.hall-btn:after{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIxIDIwIj48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTEuMjQyIDkuMTQ0Yy0yLjQ4IDIuNDgtMy4yNCA0LjQ3LTIuNTk0IDYuMjIyIDAgMCA1LjY4LTUuNjgzIDUuNjgzLTUuNjgzTDguNjUgNGMtLjY0NyAxLjc1LjExNSAzLjc0IDIuNTk0IDYuMjJWOS4xNDR6Ii8+PC9zdmc+);
+    background-size: 28px;
+    margin-top: -15px;
+    height: 30px;
+    width: 30px;
+    right: -7px;
+}
+
+.onlineboardTable .schedule-clmn.clmn-apo {
+    width: 22%;
+}
+
+.akrThailandSpecial {
+    width: 100%;
+    margin: 40px 0 20px 0;
+}
+
+.akrThailandSpecial img{
+    width: 100%;
+}
+
+.akrThailandSpecial .mobileSpecial{
+    display: none;
+}
+
+@media (max-width: 1024px){
+    .akrThailandSpecial .mobileSpecial{
+        display: block;
+    }
+    .akrThailandSpecial .desktopSpecial{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+
+    .akrThailandSpecial {
+        width: calc(100vW + 10px);
+        position: relative;
+        height: calc(100vw / 1.8);
+        margin-left: -60px;
+    }
+
+    .akrThailandSpecial .mobileSpecial{
+        display: block;
+        position: absolute;
+        max-height: 100%;
+    }
+    .akrThailandSpecial .desktopSpecial{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .akrThailandSpecial {
+        width: calc(100vW + 10px);
+        margin-left: -50px;
+    }
+}
+
+.p-order__dropzone {
+    margin-top: 25px;
+    /*margin-top: 25px;*/
+}
+
+.p-order__dropzone .dz-message {
+    margin-top: 10px;
+}
+
+.dz-message {
+    width: 100%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px dashed #666666;
+    border-radius: 0px;
+    color: #A0A0A0;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 30px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    background-color: #FCFCFC;
+    border-radius: 18px;
+}
+
+label.input-name {
+    color: #666666;
+    padding: 4px 0 2px 0;
+    display: block;
+}
+
+.pressForm {
+    max-width: 500px;
+}
+
+.pressLine {
+    position: relative;
+}
+
+.pressLine span.input-error {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    font-size: 12px;
+    color: #d0112b;
+}
+
+.pressLine .form-input.input-error{
+    border-color: #d0112b;
+}
+
+.g-recaptcha {
+    margin-bottom: 25px;
+}
+
+.g-form__select-city .selectize-input {
+    border-radius: 20px;
+    border: 1px solid #a0a0a3;
+}
+
+.g-form__select-city .selectize-input input,
+.g-form__select-city .selectize-dropdown,
+.g-form__select-city .selectize-input,
+.g-form__select-city .selectize-input input {
+    color: #999;
+    font: 400 12px/20px 'Helios', sans-serif;
+    letter-spacing: 0.84px;
+}
+
+.g-form__select-city .selectize-input {
+    padding: 7px 15px;
+}
+
+.g-form__select-city .selectize-input.dropdown-active {
+    border-radius: 20px 20px 0 0;
+}
+
+.g-form__select-city .selectize-dropdown {
+    border: 1px solid #a0a0a3;
+    border-top-color: transparent;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+
+.g-form__select-city .selectize-dropdown .option {
+    cursor: pointer;
+    padding: 7px 10px;
+}
+
+.g-form__select-city .selectize-dropdown .active {
+    background-color: #fff;
+    color: #d0112b;
+}
+
+.g-form__select-city .selectize-dropdown-content {
+    padding: 10px;
+}
+
+.g-form__select-city .selectize-control.single .selectize-input:after {
+    border: none;
+    width: 12px;
+    height: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/local/components/cakelabs/interactive/templates/.default/images/arrow.png);
+}
+
+.g-form__select-city .selectize-control.single .selectize-input.dropdown-active:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.header-midl-submenu .submenu-item,
+.header-midl-submenu .submenu-item__half {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+z-index: 1;
+}
+
+@media (min-width: 1200px){
+    .all-pages-booking .tabs_form li a.booking-accordion-btn {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+.agreeLine {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.agreeLine input[type='checkbox'] {
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    display: none;
+}
+
+.pressLine.agreeLine span.input-error {
+    left: 30px;
+    top: 0;
+}
+
+.agreeLine label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d0112b;
+    border-radius: 9px;
+    background: no-repeat center;
+    background-size: 100% 100%;
+}
+
+.agreeLine label {
+    font: 400 12px/18px 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.agreeLine input[type='checkbox']:checked + label:before,
+.agreeLine input[type='checkbox']:checked + span + label:before {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAgMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNFMzEzMkMiIGQ9Ik0xNi4xNzMsNS45MjFjLTEuNzI4LTAuNDU5LTMuNTYsMC40NDctNS42OTksMy4wMzdsLTIuOTMsMy40ODdsMS41MDksMi4wODVsMy4wODEtMy43MjVsNC4wNDItNC44ODRIMTYuMTczeiBNMTAuMDY4LDEyLjAxNmMtMi4yMzktMi41MDQtNC4xMDYtMy4zMzctNS44MTMtMi44MWw0Ljc2OSw1LjMyNGwxLjA0NS0yLjUxNEgxMC4wNjh6Ii8+PC9zdmc+);
+}
+
+.check-wrap {
+    padding-left: 30px;
+    position: relative;
+}
+
+.check-wrap label {
+    position: relative;
+    padding-left: 25px;
+    display: block;
+    pointer-events: none;
+}
+
+.check-wrap label {
+    position: relative;
+    padding-left: 25px;
+    display: block;
+    pointer-events: none;
+}
+
+.cookies-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.85);
+    -webkit-box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.12);
+    z-index: 10;
+}
+
+.cookies-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.cookies-line .cookies-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.cookies-line .cookies-text {
+    width: calc(100% - 300px);
+}
+
+.cookies-line .cookies-link {
+    width: 300px;
+}
+
+.cookies-link-wrap {
+    text-align: center;
+}
+
+.cookies-line .btn-cookies {
+    color: #D0112F;
+    /* background: #D0112F; */
+    border-color: #d0112b;
+    padding: 5px 32px 5px;
+}
+
+.cookies-line .btn-cookies:hover {
+    background: #D0112F;
+    color: #FFFFFF;
+}
+
+.cookies-line .cookies-text a {
+    text-decoration: underline;
+    color: #d0112b;
+}
+
+@media (max-width: 768px){
+    .cookies-line .cookies-text {
+        width: calc(100% - 200px);
+    }
+
+    .cookies-line .cookies-link {
+        width: 200px;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    .cookies-line .cookies-text {
+        width: calc(100% - 50px);
+        padding-right: 14px;
+    }
+
+    .cookies-line .cookies-link {
+        width: 50px;
+    }
+
+    .btn-cookies {
+        font-size: 0;
+        letter-spacing: 0;
+    }
+
+    .btn-cookies:after {
+        font-size: 12px;
+        content: "Ok";
+    }
+
+    .cookies-line .btn-cookies {
+        padding: 7px 14px;
+    }
+}
+
+.main-page-bline .bleft-main .main-b-one .back-b-main.video_main {
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-page-bline .bleft-main .main-b-one .back-b-main.video_main video {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    position: relative;
+}
+.bx-ie .main-page-bline .bleft-main .main-b-one .back-b-main.video_main video {
+    width: auto;
+    left: -81px;
+}
+
+.main-page-bline .bleft-main .main-b-one .video_main.back-b-main video
+
+.video_main #video_play {
+    background: url("/local/templates/rossiya_airlines/tpl/img/ros-play-icon.svg") no-repeat center center;
+    background-size: 180px;
+    opacity: .5;
+    transition: background-size 0.4s ease-in, opacity 0.4s ease-in;
+    -moz-transition: background-size 0.4s ease-in, opacity 0.4s ease-in;
+    -ms-transition: background-size 0.4s ease-in, opacity 0.4s ease-in;
+    -o-transition: background-size 0.4s ease-in, opacity 0.4s ease-in;
+    -webkit-transition: background-size 0.4s ease-in, opacity 0.4s ease-in;
+}
+
+.video_main #video_play:hover {
+    background-size: 240px;
+    opacity: .75;
+}
+
+.header-top-search .search-wrap.imap-wrap {
+    margin-top: 10px;
+}
+
+.header-top-search .search-wrap.imap-wrap a{
+    background-color: #F1F3F4;
+    color: #808080;
+    display: block;
+    padding: 0 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 32px;
+    position: relative;
+}
+
+.imap-top {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.imap-top a {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.imap-top a:before {
+    content: ' ';
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-globe_desktop.svg) no-repeat center center;
+    left: -30px;
+    top: -2px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+
+}
+
+.imap-top:hover {
+    color: #d0112b;
+}
+
+.imap-top:hover a:before {
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-globe_desktop_red.svg) no-repeat center center;
+}
+
+.header-top-search .search-wrap.imap-wrap a:before {
+    content: ' ';
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-globe_desktop.svg) no-repeat center center;
+    background-size: 18px;
+
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-socials {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header-socials a.yt,
+.header-socials .in {
+    display: inline-block;
+    margin: 0 4px;
+    width: 20px;
+    height: 20px;
+    background: url(/local/templates/rossiya_airlines/tpl/css/../img/icons_seti.png) no-repeat;
+}
+
+.header-socials a.tg {
+    text-transform: uppercase;
+}
+
+.header-socials a span.tg__text {
+    vertical-align: top;
+    margin-left: 4px;
+}
+
+.header-socials a.tg > svg:hover path.st0 {
+    fill: #D0112B;
+}
+
+.header-socials a.yt {
+	text-transform: uppercase;
+}
+
+.header-socials a.vk {
+    display: inline-block;
+    margin: 0 4px;
+    width: 21px;
+    height: 20px;
+    background: url(/local/templates/rossiya_airlines/tpl/css/../img/icons_seti.png) no-repeat;
+}
+
+.header-socials a.vk {
+    background-position: -80px 0;
+}
+
+.header-socials a.vk:hover {
+    background-position: -80px -20px;
+}
+
+.header-socials .in {
+    background-position: -60px 0;
+}
+
+.header-socials a.yt {
+    background-position: -60px 0;
+}
+
+.header-socials a.yt:hover {
+    background-position: -60px -20px;
+}
+
+.header-socials .h__in {
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.header-socials .h__in:hover {
+    color: #d0112b;
+}
+
+.header-socials .h__in:hover .in {
+    background-position: -40px -20px;
+}
+
+.header-socials .h__in span {
+    vertical-align: top;
+}
+
+.header-socials .yt span {
+    vertical-align: top;
+}
+
+.header-socials .h__in:hover .in.yt {
+  background-position: -60px -20px;
+}
+
+@media (max-width: 1550px){
+    .header-top-search .search-wrap.active {
+        /* position: absolute;
+        right: 15px;
+        top: 17px; */
+    }
+}
+
+@media (max-width: 1023px){
+    .header-socials {
+        
+    }
+}
+
+.header-mobile-socials {
+    display: none;
+    margin-left: 30px;
+}
+
+.header-mobile-socials ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header-mobile-socials ul li{
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.header-mobile-socials ul li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.header-mobile-socials span {
+    color: #808080;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 10px 0 6px;
+}
+
+.header-mobile-socials a.vk_link {
+	background: url(/local/templates/rossiya_airlines/tpl/img/ros-vk_gray_mobile.svg) no-repeat center center;
+}
+
+.header-mobile-socials a.vk_link:hover {
+	background: url(/local/templates/rossiya_airlines/tpl/img/ros-vk_red_mobile.svg) no-repeat center center;
+}
+
+.header-mobile-socials a.youtube_link {
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-youtube_gray.svg) no-repeat center center;
+}
+
+.header-mobile-socials a.youtube_link:hover {
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-youtube_red.svg) no-repeat center center;
+}
+
+.header-mobile-socials a.tg_link {
+    background: url(/local/templates/rossiya_airlines/tpl/img/telegram-grey.png) no-repeat center center / 100%;
+}
+
+.header-mobile-socials a.tg_link:hover {
+    background: url(/local/templates/rossiya_airlines/tpl/img/telegram-red.png) no-repeat center center / 100%;
+}
+
+.header-mobile-socials a.instagram_link {
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-instagram_gray.svg) no-repeat center center;
+}
+
+.header-mobile-socials a.instagram_link:hover {
+    background: url(/local/templates/rossiya_airlines/tpl/img/ros-instagram_red.svg) no-repeat center center;
+}
+
+.header-mobile-socials ul li:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 600px){
+    .imap-top {
+        display: none;
+    }
+    .main-page-bline .bleft-main .main-b-one .back-b-main.video_main video {
+        width: 100%;
+        -o-object-fit: initial;
+        object-fit: initial;
+        height: auto;
+    }
+    .header-mobile-socials {
+        display: block;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .header-midl-logo {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 780px){
+    .spo-news-line .has-left-inset[class*="clmn-"] {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 500px){
+    .spo-news-line .has-left-inset[class*="clmn-"] {
+        padding-left: 50px;
+    }
+    .spo-post.spo-news {
+        padding-left: 50px !important;
+    }
+}
+
+@media (max-width: 410px){
+    .main-page-bline .bleft-main .main-b-one {
+        height: 255px;
+    }
+}
+
+@media (max-width: 370px){
+    .main-page-bline .bleft-main .main-b-one {
+        height: 226px;
+    }
+}
+
+.formLoaderWrap {
+    display: none !important;
+}
+
+.all-pages-title span {
+    white-space: nowrap;
+}
+
+.all-pages-booking .booking-hang {
+    text-align: center;
+}
+
+.video-line {
+    margin: 0 -15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px){
+    .video-line iframe{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .video-line .clmn-2-of-4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

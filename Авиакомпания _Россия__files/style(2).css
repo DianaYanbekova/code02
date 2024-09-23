@@ -1,0 +1,91 @@
+.main-page-program.main-page-program_new {
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #333;
+  position: relative;
+}
+
+.main-page-program.main-page-program_new .program-title {
+  color: #FFFFFF;
+  font: 700 14px/18px "Helios", sans-serif;
+}
+.main-page-program.main-page-program_new .program-note {
+  color: #FFFFFF;	
+  height: 143px;
+}
+
+.main-page-program.main-page-program_new .btn-black {
+  background-color: #d0112b;
+  border-color: #d0112b;
+  color: #fff;
+  outline: none;
+  min-width: 119px;
+}
+
+.main-page-program.main-page-program_new .btn-black:hover {
+  background-color: #ff999a;
+  border-color: #ff999a;
+  outline: none;
+}
+.main-page-program.main-page-program_new .btn-black:active {
+  background-color: #ff999a;
+  border-color: #ff999a;
+}
+
+.main-page-program.main-page-program_new .program-more {
+  position: absolute;
+  margin: 12px 0 0 0;
+  font: 400 11px/17px "Helios", sans-serif;
+  max-width: unset;
+  z-index: 1;
+  bottom: 5px;
+}
+
+.btn .icon-toleft-black {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20'%3E%3Cpath fill='%23fff' d='M11.242 9.144c-2.48 2.48-3.24 4.47-2.594 6.222 0 0 5.68-5.683 5.683-5.683L8.65 4c-.647 1.75.115 3.74 2.594 6.22V9.144z'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 660px) {
+  /*
+  .main-page-program.main-page-program_new::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.8) 40%,
+      rgba(255, 255, 255, 0.7) 60%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    z-index: 0;
+  }
+  */	
+}
+
+@media (max-width: 600px) {
+  .main-page-program.main-page-program_new .program-txt {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-page-program.main-page-program_new .btn-black {
+    min-width: unset;
+  }
+}
+
+@media (max-width: 490px) {
+  .main-page-program.main-page-program_new .program-txt {
+    width: 55%;
+  }
+
+  .main-page-program.main-page-program_new .btn {
+    font-size: 7px;
+  }
+}

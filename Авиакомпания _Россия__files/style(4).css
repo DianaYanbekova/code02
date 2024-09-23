@@ -1,0 +1,52 @@
+.header-midl-submenu .submenu-item-list a.with-icon {
+	display: inline-block;
+	color: #d0112b;
+	font: 400 13px/18px 'Helios', sans-serif;
+	letter-spacing: 0;
+	padding: 10px 0 10px 30px;
+	position: relative;
+}
+
+
+.with-icon:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 7px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu__icon-comfort:before {
+	background-image: url(./images/comfort.svg);
+}
+.menu__icon-cradle:before {
+	background-image: url(./images/icon-cradle.svg);
+}
+
+.menu__icon-food:before {
+	background-image: url(./images/food.svg);
+}
+
+.menu__icon-congratulation:before {
+	background-image: url(./images/congratulation.svg);
+}
+
+.menu__icon-pre_bonding:before {
+	background-image: url(./images/pre_bonding.svg);
+}
+
+.menu__icon-insurance:before {
+	background-image: url(./images/insurance.svg);
+}
+
+.menu__icon-star:before {
+	background-image: url(./images/star.svg);
+}
+
+.menu__icon-aeroexpress:before {
+	background-image: url(./images/aeroexpress.svg);
+}
